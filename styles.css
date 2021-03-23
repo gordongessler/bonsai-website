@@ -8,13 +8,17 @@ html {
 .container > div {
     background-color: #52796F;
     margin: 20px;
-    padding: 20px;
-    width: 150px;
+    width: 250px;
 }
 .bonsai-style {
+    min-height: 250px;
+}
+.bonsai-style > div {
     background-color: #52796F;
 }
-
 .bonsai-style > img {
     float: left;
+}
+.bonsai-style:nth-of-type(2n)  > img{    
+    float: right;
 }
