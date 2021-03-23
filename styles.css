@@ -16,9 +16,15 @@ html {
 .bonsai-style > div {
     background-color: #52796F;
 }
+.bonsai-style > div > h1{
+    text-align: right;
+}
+.bonsai-style:nth-of-type(2n) > div > h1{
+    text-align: left;
+}
 .bonsai-style > img {
     float: left;
 }
-.bonsai-style:nth-of-type(2n)  > img{    
+.bonsai-style:nth-of-type(2n)  > img {    
     float: right;
 }
