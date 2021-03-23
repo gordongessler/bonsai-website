@@ -1,0 +1,20 @@
+html {
+    background-color: #84a98c;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container > div {
+    background-color: #52796F;
+    margin: 20px;
+    padding: 20px;
+    width: 150px;
+}
+.bonsai-style {
+    background-color: #52796F;
+}
+
+.bonsai-style > img {
+    float: left;
+}
