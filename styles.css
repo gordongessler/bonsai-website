@@ -11,20 +11,24 @@ html {
     width: 250px;
 }
 .bonsai-style {
-    min-height: 250px;
+    min-height: 400px;
 }
 .bonsai-style > div {
     background-color: #52796F;
 }
-.bonsai-style > div > h1{
-    text-align: right;
+.bonsai-style > div > p {
+    text-align: justify;
 }
-.bonsai-style:nth-of-type(2n) > div > h1{
-    text-align: left;
+.bonsai-style > div > h1{
+    text-align: center;
 }
 .bonsai-style > img {
     float: left;
+    width: 400px;
+    height: 400px;
 }
 .bonsai-style:nth-of-type(2n)  > img {    
     float: right;
+    width: 400px;
+    height: 400px;
 }
