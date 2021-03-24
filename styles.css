@@ -1,5 +1,40 @@
-html {
+* {
+    box-sizing: border-box;
+}
+
+body {
     background-color: #84a98c;
+    padding: 10px;
+    font-family: Arial;
+}
+
+.header{
+    padding: 25px;
+    text-align: center;
+    background: #354f52;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #2F3E46;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #cad2c5;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    background-color: #cad2c5;
+    color: #2F3E46;
 }
 .container {
     display: flex;
