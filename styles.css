@@ -8,7 +8,7 @@ body {
     font-family: Arial;
 }
 
-.header{
+.header {
     padding: 25px;
     text-align: center;
     background: #354f52;
@@ -36,34 +36,89 @@ body {
     background-color: #cad2c5;
     color: #2F3E46;
 }
-.container {
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content {
+    float: right;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
 }
-.container > div {
+
+.info {
+    float: right;
+    width: 30%;
+    position: sticky;
+    top: 0;
+}
+
+.info>div {
     background-color: #52796F;
     margin: 20px;
-    width: 250px;
 }
+
 .bonsai-style {
-    min-height: 400px;
+    overflow: auto;
+    max-width: 49%;
 }
-.bonsai-style > div {
+
+.bonsai-style>div {
     background-color: #52796F;
 }
-.bonsai-style > div > p {
+
+.bonsai-style>div>p {
     text-align: justify;
+    padding: 10px;
 }
-.bonsai-style > div > h1{
+
+.bonsai-style>h1 {
+    text-align: center;
+    
+}
+
+.bonsai-style>div>h1 {
     text-align: center;
 }
-.bonsai-style > img {
-    float: left;
-    width: 400px;
-    height: 400px;
+
+.bonsai-style>div>img {
+    max-width: 100%;
+    max-height: 100%;
 }
-.bonsai-style:nth-of-type(2n)  > img {    
-    float: right;
-    width: 400px;
-    height: 400px;
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #2F3E46;
+    margin-top: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+    .content, .info {
+        width: 100%;
+        padding: 0;
+        position: static;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .bonsai-style {
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
 }
