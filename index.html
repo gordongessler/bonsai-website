@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Drzewa bonsai</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/7977ad9c2a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="favicon.ico" />
 </head>
 
 <body>
@@ -18,22 +20,24 @@
 
     <div class="navbar">
         <a href="index.html">Strona startowa</a>
-        <a href="#">Link</a>
+        <a href="https://pl.wikipedia.org/wiki/Bonsai">Źródło informacji</a>
         <a href="form.html" style="float: right;">Formularz</a>
     </div>
 
     <div class="container">
 
         <div class="info">
-            <div>
+            <div id="definition">
                 <h1>Czym jest Bonsai?</h1>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus natus voluptatibus tenetur
-                    reprehenderit perspiciatis qui aperiam sunt inventore dolores officiis, nulla totam illo omnis. Non
-                    sit vitae omnis nostrum architecto!
+                    Bonsai, sztuka bonsai (jap. 盆栽 karłowate drzewo w naczyniu, bon – płaska taca lub pojemnik, sai –
+                    roślina; chiń. penjing) – sztuka miniaturyzowania drzew lub krzewów uprawianych w odpowiednio
+                    dobranych, płaskich pojemnikach. Efekt ten jest uzyskiwany poprzez specyficzne przycinanie oraz
+                    pielęgnację. W potocznym znaczeniu – zminiaturyzowane rośliny o sztucznie wymuszonym, płytkim
+                    systemie korzeniowym umieszczone w płaskim naczyniu.
                 </p>
             </div>
-            <div>
+            <div id="styles">
                 <h1>Style bonsai:</h1>
                 <ul>
                     <li><a href="#bunjingi">Bunjingi</a></li>
@@ -56,8 +60,10 @@
         <div class="content">
             <div class="bonsai-style" id="bunjingi">
                 <div>
-                    <h1>Bunjingi</h1>
-                    <img src="images/bunjin.jpg">
+                    <div class="img-overlay">
+                        <h1>Bunjingi</h1>
+                        <img src="images/bunjin.jpg">
+                    </div>
                     <p>
                         Jest to styl trudny do opisania. Wyrafinowaną formę drzewa uzyskuje się, odrzucając wszystkie
                         zasady sztuki bonsai stosowane w innych stylach. Regułą jest formowanie rzadkich gałązek w 2/3
@@ -80,13 +86,14 @@
                         nastawieni mistrzowie bonsai uznali już jego piękno.
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="chokkan">
                 <div>
-                    <h1>Chokkan</h1>
-                    <img src="images/chokkan.jpg">
+                    <div class="img-overlay">
+                        <h1>Chokkan</h1>
+                        <img src="images/chokkan.jpg">
+                    </div>
                     <p>
                         Drzewko o pniu wyprostowanym. Jest to podstawowy styl bonsai, charakteryzujący się pionowym,
                         mocnym pniem harmonizującym z głównymi gałęziami. Gałęzie uformowane w kształcie piramidy
@@ -102,13 +109,14 @@
                         (Fagus) i dęby (Quercus).
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="fukinagashi">
                 <div>
-                    <h1>Fukinagashi</h1>
-                    <img src="images/fukinagashi.jpg">
+                    <div class="img-overlay">
+                        <h1>Fukinagashi</h1>
+                        <img src="images/fukinagashi.jpg">
+                    </div>
                     <p>
                         W bonsai w stylu Fukinagashi gałęzie wyrastają lub są wygięte tylko w jedną, wyznaczoną przez
                         wiatr, stronę. Pień może być pochylony w tym samym kierunku co gałęzie lub w stronę przeciwną.
@@ -119,13 +127,14 @@
                         głównie sosny (np. Pinus mugo ) i klony (Acer).
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="hokidachi">
                 <div>
-                    <h1>Hōkidachi</h1>
-                    <img src="images/hokidachi.jpg">
+                    <div class="img-overlay">
+                        <h1>Hōkidachi</h1>
+                        <img src="images/hokidachi.jpg">
+                    </div>
                     <p>
                         Styl najczęściej wybierany przez początkujących bonsaistów. Jego stworzenie nie wymaga wielkiej
                         wprawy i umiejętności. Jest to drzewko o koronie miotlastej. Z prostego pnia wyrastają główne
@@ -136,13 +145,14 @@
                         (Betula) oraz drzewa kwitnące i owocujące.
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="ikadabuki">
                 <div>
-                    <h1>Ikadabuki</h1>
-                    <img src="images/ikadabuki.jpg">
+                    <div class="img-overlay">
+                        <h1>Ikadabuki</h1>
+                        <img src="images/ikadabuki.jpg">
+                    </div>
                     <p>
                         Jest to lasek bonsai, którego drzewa są gałęziami pionowo wyrastającymi z poziomo zakopanego w
                         pojemniku pnia. Jest to jeden z łatwiejszych stylów. Jego zaletą jest jednolity charakter
@@ -152,26 +162,28 @@
                         (Acer).
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="kabudachi">
                 <div>
-                    <h1>Kabudachi</h1>
-                    <img src="images/kabudachi.jpg">
+                    <div class="img-overlay">
+                        <h1>Kabudachi</h1>
+                        <img src="images/kabudachi.jpg">
+                    </div>
                     <p>
                         Drzewko o wielu pniach. Jest to określenie tych bonsai, z których z jednego systemu korzeniowego
                         wyrasta kilka pni. W stylu tym liczba pni musi być nieparzysta. Najlepiej nadają się sosny
                         (Pinus), jałowce (Juniperus) i świerki (Picea).
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="kengai">
                 <div>
-                    <h1>Kengai</h1>
-                    <img src="images/kengai.jpg">
+                    <div class="img-overlay">
+                        <h1>Kengai</h1>
+                        <img src="images/kengai.jpg">
+                    </div>
                     <p>
                         Wzorem drzew formowanych w stylu Kengai są drzewa i krzewy zwieszające się z występów skalnych.
                         Bonsai w stylu kaskadowym powinien mieć wijący się pień. Może mieć dowolną liczbą gałęzi lewych,
@@ -186,13 +198,14 @@
                         drzewa owocowe.
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="shakan">
                 <div>
-                    <h1>Shakan</h1>
-                    <img src="images/shakan.jpg">
+                    <div class="img-overlay">
+                        <h1>Shakan</h1>
+                        <img src="images/shakan.jpg">
+                    </div>
                     <p>
                         Wyróżnia się trzy odmiany stylu Shakan: Shō-shakan - drzewko lekko pochylone, Chū-shakan -
                         drzewko średnio pochylone i Dai-shakan - drzewko mocno pochylone. Styl ten uważany za łatwy,
@@ -202,13 +215,14 @@
                         niż pień. Poleca się wykorzystywać w tym stylu sosny (Pinus) i azalie (Azalea).
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="moyogi">
                 <div>
-                    <h1>Moyōgi</h1>
-                    <img src="images/moyogi.jpg">
+                    <div class="img-overlay">
+                        <h1>Moyōgi</h1>
+                        <img src="images/moyogi.jpg">
+                    </div>
                     <p>
                         Tworząc bonsai w stylu Moyōgi (styl wyprostowany nieregularny) należy formować jedną gałąź na
                         lewo, drugą na prawo i trzecią do tyłu dla uzyskania perspektywy, czwartą gałąź na lewo itd. Aby
@@ -224,25 +238,27 @@
                         (Juniperus) i większość drzew liściastych.
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="netsuranari">
                 <div>
-                    <h1>Netsuranari</h1>
-                    <img src="images/netsuranari.jpg">
+                    <div class="img-overlay">
+                        <h1>Netsuranari</h1>
+                        <img src="images/netsuranari.jpg">
+                    </div>
                     <p>
                         Styl pełzający - drzewko o nieparzystej liczbie pni wyrastających z poziomo zakopanego w
                         pojemniku korzenia. Styl Netsuranari jest rzadko spotykany nawet w Japonii.
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="sokan">
                 <div>
-                    <h1>Sōkan</h1>
-                    <img src="images/sokan.jpg">
+                    <div class="img-overlay">
+                        <h1>Sōkan</h1>
+                        <img src="images/sokan.jpg">
+                    </div>
                     <p>
                         Bonsai w stylu Sōkan to drzewko o dwu pniach. Liczba 2 jest jedyną liczbą parzystą akceptowaną
                         przez twórców bonsai i to tylko w tym stylu. Pozostałe style tworzone z grup drzew zawierają
@@ -253,13 +269,14 @@
                         klony (Acer).
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="ishizuke">
                 <div>
-                    <h1>Ishizuke</h1>
-                    <img src="images/ishizuke.jpg">
+                    <div class="img-overlay">
+                        <h1>Ishizuke</h1>
+                        <img src="images/ishizuke.jpg">
+                    </div>
                     <p>
                         Są dwa sposoby sadzenia pojedynczych okazów bonsai na kamieniach. W pierwszym korzenie oplatają
                         kamień, ale sięgają podłoża w pojemniku i głównie stamtąd czerpią wodę i składniki pokarmowe,
@@ -288,13 +305,14 @@
                         naturalnie. Rozłożyste buki (Fagus) na przykład nie rosną w skalistych, górskich okolicach.
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="saikei">
                 <div>
-                    <h1>Saikei</h1>
-                    <img src="images/saikei.jpg">
+                    <div class="img-overlay">
+                        <h1>Saikei</h1>
+                        <img src="images/saikei.jpg">
+                    </div>
                     <p>
                         Saikei, opisywany jako "krajobraz na tacy", jest sposobem na przedstawienie krajobrazu w
                         miniaturze. Drzewa, skały, trawy, mchy i piaski mogą być użyte, aby stworzyć naturalne
@@ -314,13 +332,14 @@
                         wykorzystać obok żywych roślin również sztuczne, może być także bonkei w ogóle bez roślin.
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
 
             <div class="bonsai-style" id="other-styles">
                 <div>
-                    <h1>Inne style</h1>
-                    <img src="images/bonsai.jpg">
+                    <div class="img-overlay">
+                        <h1>Inne style</h1>
+                        <img src="images/bonsai.jpg">
+                    </div>
                     <p>
                     <ul>
                         <li><b>Sōju</b> - styl dwóch drzewek</li>
@@ -333,14 +352,12 @@
                     </ul>
                     </p>
                 </div>
-                <div class="clear"></div>
             </div>
-        </div class="content">
+        </div>
 
-       
-    </div class="container">
+    </div>
 
     <div class="footer">
-        <h2>Footer</h2>
+        <a href="https://github.com/gordongessler/bonsai-website" class="fab fa-github fa-3x"></a>
     </div>
 </body>

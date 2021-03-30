@@ -4,8 +4,8 @@
 
 body {
     background-color: #84a98c;
-    padding: 10px;
     font-family: Arial;
+    padding: 10px;
 }
 
 .header {
@@ -60,33 +60,47 @@ body {
 
 .info>div {
     background-color: #52796F;
-    margin: 20px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    text-align: justify;
 }
 
 .bonsai-style {
     overflow: auto;
     max-width: 49%;
+    margin-top: 20px;
+}
+
+.img-overlay {
+    position: relative;
+}
+
+.img-overlay>h1 {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
 }
 
 .bonsai-style>div {
     background-color: #52796F;
 }
 
-.bonsai-style>div>p {
+.bonsai-style p {
     text-align: justify;
     padding: 10px;
 }
 
-.bonsai-style>h1 {
-    text-align: center;
-    
-}
-
-.bonsai-style>div>h1 {
-    text-align: center;
-}
-
-.bonsai-style>div>img {
+.bonsai-style img {
     max-width: 100%;
     max-height: 100%;
 }
@@ -107,6 +121,34 @@ body {
         width: 100%;
         padding: 0;
         position: static;
+    }
+    .info {
+        display: flex;
+        justify-content: center;
+    }
+    #definition {
+        width: 60%;
+    }
+    #styles {
+        width: 40%;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .content, .info {
+        width: 100%;
+        padding: 0;
+        position: static;
+    }
+    .info {
+        display: flex;
+        justify-content: center;
+    }
+    #definition {
+        width: 60%;
+    }
+    #styles {
+        width: 40%;
     }
 }
 
