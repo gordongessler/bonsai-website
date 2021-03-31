@@ -116,6 +116,41 @@ body {
     clear: both;
 }
 
+form {
+    align-items: center;
+    margin: auto;
+    min-width: 700px;
+    max-width: 50%;
+}
+
+fieldset {
+    border: none;
+}
+input[type=submit]{
+    background-color: #2F3E46;
+    width: 100%;
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+input[type="text"], input[type="email"], input[type="date"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+select {
+    width: 100%;
+    padding: 12px 20px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 50px;
+    padding: 12px 20px;
+    resize: vertical;
+}
+
 @media screen and (max-width: 1000px) {
     .content, .info {
         width: 100%;
@@ -154,6 +189,10 @@ body {
 
 @media screen and (max-width: 800px) {
     .bonsai-style {
+        max-width: 100%;
+    }
+    form {
+        min-width: auto;
         max-width: 100%;
     }
 }

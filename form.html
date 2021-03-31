@@ -24,6 +24,45 @@
         <a href="form.html" style="float: right;">Formularz</a>
     </div>
 
+    
+    <form id="form1">
+        <fieldset>
+            <div>
+                <label for="name">Imie i nazwisko</label>
+                <input name="name" type="text" placeholder="Imie i nazwisko" required="required">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input name="email" type="email" placeholder="Adres email" required="required">
+            </div>
+            <label for="birthdate">Data urodzenia</label>
+            <input name="birthdate" type="date">
+        </fieldset>
+        <fieldset>
+            <p>Wybierz swój ulubiony styl Bonsai</p>
+            <select name="style">
+                <option value="bunjingi"> Bunjingi
+                <option value="chokkan"> Chokkan
+                <option value="fukinagashi">Fukinagashi
+                <option value="hokidachi">Hokidachi
+                <option value="ikadabuki">Ikadabuki
+                <option value="kabudachi">Kabudachi
+                <option value="kengai">Kengai
+                <option value="shakan">Shakan
+                <option value="moyogi">Moyōgi
+                <option value="netsuranari">Netsuranari
+                <option value="sokan">Sōkan
+                <option value="ishizuke">Ishizuke
+                <option value="saikei">Saikei
+                <option value="other">Inny
+            </select>
+            <p>Dlaczego akurat ten styl?</p>
+            <textarea name="message" form="form1"></textarea>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Wyślij" />
+        </fieldset>
+    </form>
 
     <div class="footer">
         <a href="https://github.com/gordongessler/bonsai-website" class="fab fa-github fa-3x"></a>
