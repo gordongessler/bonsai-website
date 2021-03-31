@@ -1,17 +1,37 @@
+/* https://coolors.co/d8f3dc-b7e4c7-95d5b2-74c69d-52b788-40916c-2d6a4f-1b4332-081c15 */
+
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #84a98c;
+    background-color: #95D5B2;
     font-family: Arial;
+    color: #081C15;
     padding: 10px;
+}
+
+::selection {
+    color: #081C15;
+    background: #D8F3DC;
+}
+
+a:link {
+    color: #081C15;
+}
+
+a:visited {
+    color: #95D5B2;
+}
+
+a:hover {
+    color: #D8F3DC;
 }
 
 .header {
     padding: 25px;
     text-align: center;
-    background: #354f52;
+    background: #2D6A4F;
 }
 
 .header h1 {
@@ -20,7 +40,7 @@ body {
 
 .navbar {
     overflow: hidden;
-    background-color: #2F3E46;
+    background-color: #1B4332;
 }
 
 .navbar a {
@@ -28,13 +48,13 @@ body {
     display: block;
     text-align: center;
     text-decoration: none;
-    color: #cad2c5;
+    color: #D8F3DC;
     padding: 10px 15px;
 }
 
 .navbar a:hover {
-    background-color: #cad2c5;
-    color: #2F3E46;
+    background-color: #D8F3DC;
+    color: #1B4332;
 }
 
 .container::after {
@@ -60,7 +80,7 @@ body {
 }
 
 .info>div {
-    background-color: #52796F;
+    background-color: #40916C;
     margin-left: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -93,7 +113,7 @@ body {
 }
 
 .bonsai-style>div {
-    background-color: #52796F;
+    background-color: #40916C;
 }
 
 .bonsai-style p {
@@ -113,7 +133,7 @@ body {
 .footer {
     padding: 20px;
     text-align: center;
-    background: #2F3E46;
+    background: #1B4332;
     margin-top: 20px;
 }
 
@@ -123,7 +143,7 @@ body {
 
 iframe {
     width: 100%;
-    height: 1000px;
+    height: 500px;
     resize: vertical;
 }
 
@@ -137,13 +157,15 @@ form {
 fieldset {
     border: none;
 }
-input[type=submit]{
-    background-color: #2F3E46;
+
+input[type=submit] {
+    background-color: #081C15;
     width: 100%;
     color: white;
     padding: 15px 30px;
     cursor: pointer;
 }
+
 input[type="text"], input[type="email"], input[type="date"] {
     width: 100%;
     padding: 12px 20px;
