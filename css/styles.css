@@ -101,6 +101,10 @@ body {
     padding: 10px;
 }
 
+.bonsai-style h {
+    padding: 10px;
+}
+
 .bonsai-style img {
     max-width: 100%;
     max-height: 100%;
