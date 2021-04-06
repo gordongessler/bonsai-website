@@ -147,6 +147,25 @@ iframe {
     resize: vertical;
 }
 
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #081C15;
+}
+
+th {
+    background-color: #1B4332;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #74C69D;
+}
+
+tr:hover {
+    background-color: #D8F3DC;
+}
+
 form {
     align-items: center;
     margin: auto;
