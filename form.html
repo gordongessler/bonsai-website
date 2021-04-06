@@ -2,20 +2,38 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="A static website about bonsai trees">
+    <meta name="description" content="Statyczna strona internetowa o drzewach bonsai">
     <meta name="keywords" content="bonsai">
     <meta name="author" content="Maciej Sobczyński">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Drzewa bonsai - formularz</title>
+    <title>Drzewa bonsai</title>
     <link rel="stylesheet" href="css/styles.css">
     <script src="https://kit.fontawesome.com/7977ad9c2a.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="favicon.ico" />
+    <script type="text/javascript">
+        writeRandomQuote = function () {
+            var quotes = new Array();
+            quotes[0] = "Our brains are like bonsai trees, growing around our private versions of reality.";
+            quotes[1] = "The object is not to make the tree look like a bonsai, but to make the bonsai look like a tree.";
+            quotes[2] = "The bonsai is not you working on the tree; you have to have the tree work on you";
+            quotes[3] = "Poor people are bonsai people. There is nothing wrong in their seeds. Simply, society never gave them the base to grow on. All it needs to get the poor people out of poverty for us to create an enabling environment for them. Once the poor can unleash their energy and creativity, poverty will disappear very quickly.";
+            quotes[4] = "To me, the poor are like Bonsai trees. When you plant the best seed of the tallest tree in a six-inch deep flower pot, you get a perfect replica of the tallest tree, but it is only inches tall. There is nothing wrong with the seed you planted; only the soil-base you provided was inadequate. Poor people are bonsai people. There is nothing wrong with their seeds. Only society never gave them a base to grow on.";
+            quotes[5] = "Sentiment is for those who don't know what to do next.";
+            quotes[6] = "I have a pet lizard named Puff, five goldfish - named Pinky, Brain, Jowels, Pearl and Sandy, an oscar fish named Chef, two pacus, an albino African frog named Whitey, a bonsai tree, four Venus flytraps, a fruit fly farm and sea monkeys.";
+            quotes[7] = "Bonsai won the Chilean Critics Award for best novel of the year in 2006 and it's easy to understand why.";
+            var rand = Math.floor(Math.random() * quotes.length);
+            document.write(quotes[rand]);
+        }
+    </script>
 </head>
 
 <body>
+
     <div class="header">
         <h1>Drzewa Bonsai</h1>
-        <p>Strona - projekt na przedmiot "ASDASD"</p>
+        <q>
+            <script type="text/javascript">writeRandomQuote();</script>
+        </q>
     </div>
 
     <div class="navbar">
